@@ -24,6 +24,8 @@ This project evaluates multiple regression models using pipelines:
 - **AdaBoost**
 - **K-Nearest Neighbors (KNN)**
 - **XGBoost**
+- **CatBoost**
+  
 Each model's performance is measured using the mean squared error (MSE) on the test dataset. The best-performing model is selected for deployment.
 ## Implementation Steps
 ## 1. Data Collection  
@@ -65,7 +67,7 @@ Model evaluation is the critical assessment of the trained model's performance u
 Hyperparameter tuning involves optimizing the model's hyperparameters to achieve better performance. Techniques such as grid search or random search are employed to find the best combination of hyperparameter values, fine-tuning the model for optimal results.  
 
 # Results
-The best model was **Lasso**, achieving an RMSE of **38001.684877432745**.
+The best model was **Lasso**, achieving an RMSE of **38001.697078662**.
 ## Prerequisites
 - Python 3.x
 - Libraries: pandas, NumPy, scikit-learn, XGBoost
